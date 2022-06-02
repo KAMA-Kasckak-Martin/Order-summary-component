@@ -5,9 +5,9 @@
 
 body {
   max-width: 1080px;
-  background-image: url(/images/pattern-background-desktop.svg);
+  background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-color: rgb(201, 241, 247);
+  background-color: hsl(225, 100%, 94%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,6 @@ body {
   border-radius: 25px;
   overflow: hidden;
   position: relative;
-  margin: auto;
   background-color: white;
 }
 
@@ -30,7 +29,7 @@ img {
 
 p {
   text-align: center;
-  margin: 1rem;
+  margin: 0rem;
   padding-left: 2rem;
   padding-right: 2rem;
   opacity: 0.5;
@@ -49,9 +48,40 @@ h1 {
   display: grid;
   width: 300px;
   height: 80px;
-  background-color: bisque;
+  background-color: hsl(225, 100%, 98%);
   position: absolute;
   top: 370px;
   left: 50px;
-  grid-template-columns: ;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.price {
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+
+.haha {
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+.change {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
 }
